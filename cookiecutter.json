@@ -1,0 +1,12 @@
+{
+    "project_name":"streamlit_app",
+    "author_name":"Andy McDonald",
+    "project_slug":"{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description":"This is my awesome streamlit app.",
+    "include_streamlit_config":"y",
+    "include_streamlit_secrets":"y",
+    "include_pages_folder_for_multi_page_app":"y",
+    "include_tests":"y",
+    "include_src_directory":"y"
+
+}
