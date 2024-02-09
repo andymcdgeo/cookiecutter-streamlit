@@ -29,6 +29,5 @@ if "{{ cookiecutter.include_src_directory }}" != 'y':
     remove(os.path.join(base_path, 'src'))
 
 if __name__ == '__main__':
-    print(os.path.join(base_path))
-    print(os.path.join(base_path, '.streamlit', 'config.toml'))
+    print(f'Streamlit App successfully created at: {os.path.join(base_path)}')
     
